@@ -1,0 +1,151 @@
+CMake Deprecation Warning at CMakeLists.txt:5 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at CMakeLists.txt:3147 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_ASM_COMPILER
+    CMAKE_ASM_FLAGS
+    CMAKE_CONFIGURATION_TYPES
+
+
+make: warning: jobserver unavailable: using -j1.  Add `+' to parent make rule.
+/Users/krinjmaster/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sdl2-sys-0.37.0/SDL/src/joystick/darwin/SDL_iokitjoystick.c:538:9: warning: variable 'device_index' set but not used [-Wunused-but-set-variable]
+    int device_index = 0;
+        ^
+1 warning generated.
+/Users/krinjmaster/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sdl2-sys-0.37.0/SDL/src/joystick/iphoneos/SDL_mfijoystick.m:415:27: warning: 'gamepad' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+    } else if (controller.gamepad) {
+                          ^~~~~~~
+                          extendedGamepad
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h:231:62: note: 'gamepad' has been explicitly marked deprecated here
+@property (nonatomic, strong, readonly, nullable) GCGamepad *gamepad API_DEPRECATED_WITH_REPLACEMENT("extendedGamepad", macos(10.9, 10.12), ios(7.0, 10.0), tvos(7.0, 10.0));
+                                                             ^
+/Users/krinjmaster/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sdl2-sys-0.37.0/SDL/src/joystick/iphoneos/SDL_mfijoystick.m:606:24: warning: 'controllerPausedHandler' is deprecated: first deprecated in macOS 10.15 - controllerPausedHandler has been deprecated. Use the Menu button found on the controller's profile, if it exists. [-Wdeprecated-declarations]
+            controller.controllerPausedHandler = nil;
+                       ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h:139:46: note: 'controllerPausedHandler' has been explicitly marked deprecated here
+@property (nonatomic, copy, nullable) void (^controllerPausedHandler)(GCController *controller) API_DEPRECATED("controllerPausedHandler has been deprecated. Use the Menu button found on the controller's profile, if it exists.", macos(10.9, 10.15), ios(7.0, 13.0), tvos(9.0, 13.0));
+                                             ^
+/Users/krinjmaster/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sdl2-sys-0.37.0/SDL/src/joystick/iphoneos/SDL_mfijoystick.m:819:28: warning: 'controllerPausedHandler' is deprecated: first deprecated in macOS 10.15 - controllerPausedHandler has been deprecated. Use the Menu button found on the controller's profile, if it exists. [-Wdeprecated-declarations]
+                controller.controllerPausedHandler = ^(GCController *c) {
+                           ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h:139:46: note: 'controllerPausedHandler' has been explicitly marked deprecated here
+@property (nonatomic, copy, nullable) void (^controllerPausedHandler)(GCController *controller) API_DEPRECATED("controllerPausedHandler has been deprecated. Use the Menu button found on the controller's profile, if it exists.", macos(10.9, 10.15), ios(7.0, 13.0), tvos(9.0, 13.0));
+                                             ^
+/Users/krinjmaster/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sdl2-sys-0.37.0/SDL/src/joystick/iphoneos/SDL_mfijoystick.m:1098:31: warning: 'gamepad' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+        } else if (controller.gamepad) {
+                              ^~~~~~~
+                              extendedGamepad
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h:231:62: note: 'gamepad' has been explicitly marked deprecated here
+@property (nonatomic, strong, readonly, nullable) GCGamepad *gamepad API_DEPRECATED_WITH_REPLACEMENT("extendedGamepad", macos(10.9, 10.12), ios(7.0, 10.0), tvos(7.0, 10.0));
+                                                             ^
+/Users/krinjmaster/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sdl2-sys-0.37.0/SDL/src/joystick/iphoneos/SDL_mfijoystick.m:1100:13: warning: 'GCGamepad' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+            GCGamepad *gamepad = controller.gamepad;
+            ^~~~~~~~~
+            GCExtendedGamepad
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks/GameController.framework/Headers/GCGamepad.h:27:12: note: 'GCGamepad' has been explicitly marked deprecated here
+@interface GCGamepad : GCPhysicalInputProfile
+           ^
+/Users/krinjmaster/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sdl2-sys-0.37.0/SDL/src/joystick/iphoneos/SDL_mfijoystick.m:1100:45: warning: 'gamepad' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+            GCGamepad *gamepad = controller.gamepad;
+                                            ^~~~~~~
+                                            extendedGamepad
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h:231:62: note: 'gamepad' has been explicitly marked deprecated here
+@property (nonatomic, strong, readonly, nullable) GCGamepad *gamepad API_DEPRECATED_WITH_REPLACEMENT("extendedGamepad", macos(10.9, 10.12), ios(7.0, 10.0), tvos(7.0, 10.0));
+                                                             ^
+/Users/krinjmaster/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sdl2-sys-0.37.0/SDL/src/joystick/iphoneos/SDL_mfijoystick.m:1613:24: warning: 'controllerPausedHandler' is deprecated: first deprecated in macOS 10.15 - controllerPausedHandler has been deprecated. Use the Menu button found on the controller's profile, if it exists. [-Wdeprecated-declarations]
+            controller.controllerPausedHandler = nil;
+                       ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h:139:46: note: 'controllerPausedHandler' has been explicitly marked deprecated here
+@property (nonatomic, copy, nullable) void (^controllerPausedHandler)(GCController *controller) API_DEPRECATED("controllerPausedHandler has been deprecated. Use the Menu button found on the controller's profile, if it exists.", macos(10.9, 10.15), ios(7.0, 13.0), tvos(9.0, 13.0));
+                                             ^
+/Users/krinjmaster/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sdl2-sys-0.37.0/SDL/src/joystick/iphoneos/SDL_mfijoystick.m:1729:20: warning: 'gamepad' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+    if (controller.gamepad) {
+                   ^~~~~~~
+                   extendedGamepad
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h:231:62: note: 'gamepad' has been explicitly marked deprecated here
+@property (nonatomic, strong, readonly, nullable) GCGamepad *gamepad API_DEPRECATED_WITH_REPLACEMENT("extendedGamepad", macos(10.9, 10.12), ios(7.0, 10.0), tvos(7.0, 10.0));
+                                                             ^
+/Users/krinjmaster/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sdl2-sys-0.37.0/SDL/src/joystick/iphoneos/SDL_mfijoystick.m:1730:27: warning: 'gamepad' is deprecated: first deprecated in macOS 10.12 [-Wdeprecated-declarations]
+        return controller.gamepad.dpad;
+                          ^~~~~~~
+                          extendedGamepad
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks/GameController.framework/Headers/GCController.h:231:62: note: 'gamepad' has been explicitly marked deprecated here
+@property (nonatomic, strong, readonly, nullable) GCGamepad *gamepad API_DEPRECATED_WITH_REPLACEMENT("extendedGamepad", macos(10.9, 10.12), ios(7.0, 10.0), tvos(7.0, 10.0));
+                                                             ^
+9 warnings generated.
+/Users/krinjmaster/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sdl2-sys-0.37.0/SDL/src/video/cocoa/SDL_cocoaevents.m:292:36: warning: 'NSApplicationActivateIgnoringOtherApps' is deprecated: first deprecated in macOS 14.0 - ignoringOtherApps is deprecated in macOS 14 and will have no effect. [-Wdeprecated-declarations]
+            [i activateWithOptions:NSApplicationActivateIgnoringOtherApps];
+                                   ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSRunningApplication.h:27:5: note: 'NSApplicationActivateIgnoringOtherApps' has been explicitly marked deprecated here
+    NSApplicationActivateIgnoringOtherApps API_DEPRECATED("ignoringOtherApps is deprecated in macOS 14 and will have no effect.", macos(10.6, 14.0)) = 1 << 1
+    ^
+1 warning generated.
+/Users/krinjmaster/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sdl2-sys-0.37.0/SDL/src/video/cocoa/SDL_cocoamodes.m:126:23: warning: 'CGDisplayModeCopyPixelEncoding' is deprecated: first deprecated in macOS 10.11 - No longer supported [-Wdeprecated-declarations]
+    CFStringRef fmt = CGDisplayModeCopyPixelEncoding(vidmode);
+                      ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGDirectDisplay.h:177:34: note: 'CGDisplayModeCopyPixelEncoding' has been explicitly marked deprecated here
+CG_EXTERN CFStringRef __nullable CGDisplayModeCopyPixelEncoding(
+                                 ^
+/Users/krinjmaster/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sdl2-sys-0.37.0/SDL/src/video/cocoa/SDL_cocoamodes.m:290:32: warning: 'CGDisplayIOServicePort' is deprecated: first deprecated in macOS 10.9 - No longer supported [-Wdeprecated-declarations]
+    io_service_t servicePort = CGDisplayIOServicePort(displayID);
+                               ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGDisplayConfiguration.h:372:24: note: 'CGDisplayIOServicePort' has been explicitly marked deprecated here
+CG_EXTERN io_service_t CGDisplayIOServicePort(CGDirectDisplayID display)
+                       ^
+2 warnings generated.
+/Users/krinjmaster/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sdl2-sys-0.37.0/SDL/src/video/cocoa/SDL_cocoashape.m:68:38: warning: 'graphicsContext' is deprecated: first deprecated in macOS 10.14 - Add instances of NSView to display content in a window. [-Wdeprecated-declarations]
+    data.context = [windata.nswindow graphicsContext];
+                                     ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSWindow.h:999:59: note: property 'graphicsContext' is declared deprecated here
+@property (nullable, readonly, strong) NSGraphicsContext *graphicsContext API_DEPRECATED("Add instances of NSView to display content in a window.", macos(10.0,10.14));
+                                                          ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSWindow.h:999:59: note: 'graphicsContext' has been explicitly marked deprecated here
+1 warning generated.
+/Users/krinjmaster/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sdl2-sys-0.37.0/SDL/src/video/cocoa/SDL_cocoawindow.m:164:47: warning: 'NSFilenamesPboardType' is deprecated: first deprecated in macOS 10.14 - Create multiple pasteboard items with NSPasteboardTypeFileURL or kUTTypeFileURL instead [-Wdeprecated-declarations]
+    NSArray *types = [NSArray arrayWithObject:NSFilenamesPboardType];
+                                              ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSPasteboard.h:312:32: note: 'NSFilenamesPboardType' has been explicitly marked deprecated here
+APPKIT_EXTERN NSPasteboardType NSFilenamesPboardType API_DEPRECATED("Create multiple pasteboard items with NSPasteboardTypeFileURL or kUTTypeFileURL instead", macos(10.0,10.14));
+                               ^
+/Users/krinjmaster/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sdl2-sys-0.37.0/SDL/src/video/cocoa/SDL_cocoawindow.m:182:45: warning: 'NSFilenamesPboardType' is deprecated: first deprecated in macOS 10.14 - Create multiple pasteboard items with NSPasteboardTypeFileURL or kUTTypeFileURL instead [-Wdeprecated-declarations]
+    SDL_assert([desiredType isEqualToString:NSFilenamesPboardType]);
+                                            ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSPasteboard.h:312:32: note: 'NSFilenamesPboardType' has been explicitly marked deprecated here
+APPKIT_EXTERN NSPasteboardType NSFilenamesPboardType API_DEPRECATED("Create multiple pasteboard items with NSPasteboardTypeFileURL or kUTTypeFileURL instead", macos(10.0,10.14));
+                               ^
+/Users/krinjmaster/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sdl2-sys-0.37.0/SDL/src/video/cocoa/SDL_cocoawindow.m:528:11: warning: 'setAcceptsTouchEvents:' is deprecated: first deprecated in macOS 10.12.2 - Use allowedTouchTypes instead [-Wdeprecated-declarations]
+    [view setAcceptsTouchEvents:YES];
+          ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSView.h:230:16: note: property 'acceptsTouchEvents' is declared deprecated here
+@property BOOL acceptsTouchEvents API_DEPRECATED("Use allowedTouchTypes instead", macos(10.6,10.12.2));
+               ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSView.h:230:16: note: 'setAcceptsTouchEvents:' has been explicitly marked deprecated here
+/Users/krinjmaster/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sdl2-sys-0.37.0/SDL/src/video/cocoa/SDL_cocoawindow.m:1707:15: warning: 'setOneShot:' is deprecated: first deprecated in macOS 10.14 - This property does not do anything and should not be used [-Wdeprecated-declarations]
+    [nswindow setOneShot:NO];
+              ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSWindow.h:1001:35: note: property 'oneShot' is declared deprecated here
+@property (getter=isOneShot) BOOL oneShot API_DEPRECATED("This property does not do anything and should not be used", macos(10.0,10.14));
+                                  ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSWindow.h:1001:35: note: 'setOneShot:' has been explicitly marked deprecated here
+/Users/krinjmaster/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sdl2-sys-0.37.0/SDL/src/video/cocoa/SDL_cocoawindow.m:2482:85: warning: 'kUTTypeFileURL' is deprecated: first deprecated in macOS 12.0 - Use UTTypeFileURL or UTType.fileURL (swift) instead. [-Wdeprecated-declarations]
+        [data.nswindow registerForDraggedTypes:[NSArray arrayWithObject:(NSString *)kUTTypeFileURL]];
+                                                                                    ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Headers/UTCoreTypes.h:211:26: note: 'kUTTypeFileURL' has been explicitly marked deprecated here
+extern const CFStringRef kUTTypeFileURL                              API_DEPRECATED("Use UTTypeFileURL or UTType.fileURL (swift) instead.", ios(3.0, 15.0), macos(10.4, 12.0), tvos(9.0, 15.0), watchos(1.0, 8.0));
+                         ^
+5 warnings generated.
